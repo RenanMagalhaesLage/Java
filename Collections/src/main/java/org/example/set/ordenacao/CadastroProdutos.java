@@ -1,0 +1,54 @@
+package org.example.set.ordenacao;
+
+import java.util.HashSet;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class CadastroProdutos {
+    private Set<Produto> produtoSet;
+
+    public CadastroProdutos(){
+        this.produtoSet = new HashSet<>();
+    }
+    public void adicionarProduto(long cod, String nome, double preco, int quantidade){
+        produtoSet.add(new Produto(cod, nome, preco, quantidade));
+    }
+    public void exibirProdutosPorNome(){
+        Set<Produto> produtosPorNome = new TreeSet<>(produtoSet);
+        if (!produtoSet.isEmpty()) {
+            System.out.println(produtosPorNome);
+        } else {
+            throw new RuntimeException("O conjunto está vazio!");
+        }
+
+    }
+    public void exibirProdutosPorPreco(){
+        Set<Produto> produtosPorPreco = new TreeSet<>(new ComparatorPorPreco());
+        if (!produtoSet.isEmpty()) {
+            produtosPorPreco.addAll(produtoSet);
+            System.out.println(produtosPorPreco);
+        } else {
+            throw new RuntimeException("O conjunto está vazio!");
+        }
+    }
+
+    public static void main(String[] args) {
+        // Criando uma instância do CadastroProdutos
+        CadastroProdutos cadastroProdutos = new CadastroProdutos();
+
+        // Adicionando produtos ao cadastro
+        cadastroProdutos.adicionarProduto(1L, "Smartphone", 1000d, 10);
+        cadastroProdutos.adicionarProduto(2L, "Notebook", 1500d, 5);
+        cadastroProdutos.adicionarProduto(1L, "Mouse", 30d, 20);
+        cadastroProdutos.adicionarProduto(4L, "Teclado", 50d, 15);
+
+        // Exibindo todos os produtos no cadastro
+        System.out.println(cadastroProdutos.produtoSet);
+
+        // Exibindo produtos ordenados por nome
+        cadastroProdutos.exibirProdutosPorNome();
+
+        // Exibindo produtos ordenados por preço
+        cadastroProdutos.exibirProdutosPorPreco();
+    }
+}
