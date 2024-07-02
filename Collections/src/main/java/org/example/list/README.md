@@ -1,7 +1,7 @@
 # List Interface
 
 <p align="center">
-<img src="../../../../../assets/image/list-interface-hierarchy.png" alt="List interface hierarchy Java"><br>
+<img src="https://github.com/RenanMagalhaesLage/Java/assets/89847080/4488f7d5-b485-4f9a-b3a1-104abcae70d6" alt="List interface hierarchy Java"><br>
 <a href="https://data-flair.training/blogs/collection-framework-in-java/">Hierarchy of Collection Framework in Java </a>
 </p>
 
