@@ -1,7 +1,8 @@
+Código realizado de acordo com o material a seguir criado pela [Camila](https://github.com/cami-la)
 # MAP
 
 <p align="center">
-<img src="../../../../assets/image/map-interface-hierarchy.png" alt="Map interface hierarchy Java"><br>
+<img src="https://github.com/RenanMagalhaesLage/Java/assets/89847080/92882fad-2b81-489b-8f97-4852d9408854" alt="Map interface hierarchy Java"><br>
 <a href="https://data-flair.training/blogs/collection-framework-in-java/">Hierarchy of Collection Framework in Java </a>
 </p>
 
