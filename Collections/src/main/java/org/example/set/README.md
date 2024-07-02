@@ -1,7 +1,8 @@
+Código realizado de acordo com o material a seguir criado pela [Camila](https://github.com/cami-la)
 # SET
 
 <p align="center">
-<img src="../../../../assets/image/set-interface-hierarchy.png" alt="Set interface hierarchy Java"><br>
+<img src="https://github.com/RenanMagalhaesLage/Java/assets/89847080/875379c9-e1ab-4757-9da0-b2d42dd8d07f" alt="Set interface hierarchy Java"><br>
 <a href="https://data-flair.training/blogs/collection-framework-in-java/">Hierarchy of Collection Framework in Java </a>
 </p>
 
