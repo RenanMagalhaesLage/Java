@@ -1,4 +1,4 @@
-Código realizado de acordo com o material a seguir criado pela [Camila](https://github.com/cami-la)
+Código realizado de acordo com o material a seguir criado pela [Camila](https://github.com/cami-la) durante o curso de Java na DIO
 # MAP
 
 <p align="center">
