@@ -113,6 +113,3 @@ Crie uma classe chamada "LivrariaOnline" que representa uma livraria online. Ess
 
 ---
 
-### Dúvidas e Suporte
-
-Caso você tenha alguma dúvida, problema ou sugestão, fique à vontade para abrir uma issue no repositório. Espero conseguir te ajudar! (:
